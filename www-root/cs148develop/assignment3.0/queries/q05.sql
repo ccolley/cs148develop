@@ -1,0 +1,1 @@
+SELECT DISTINCT tblTeachers.fldFirstName, tblTeachers.fldLastName, count(fldNumStudents) FROM tblTeachers, tblSections WHERE tblSections.fnkTeacherNetId = tblTeachers.pmkNetId GROUP BY fldLastName
