@@ -1,0 +1,1 @@
+SELECT tblSections.fldCRN, fldLastName, fldFirstName FROM tblStudents CROSS JOIN tblSections WHERE fnkCourseId = "392" AND tblSections.fldCRN = "91954"

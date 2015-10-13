@@ -1,0 +1,1 @@
+SELECT DISTINCT fldCourseName, tblSections.fldDays, tblSections.fldStart FROM tblCourses INNER JOIN tblSections ON tblCourses.pmkCourseId = tblSections.fnkCourseID WHERE tblSections.fnkTeacherNetId = "jlhorton"
